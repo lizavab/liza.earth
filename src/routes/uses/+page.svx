@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>/uses • Andri Soone</title>
+</svelte:head>
+
 ## Tech I use
 
 I use a Macbook Pro M3 Pro with macOS Sonoma.

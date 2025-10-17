@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>/now • Andri Soone</title>
+</svelte:head>
+
 ## What I'm up to
 
 I am from Estonia, but I currently live in Copenhagen, Denmark.
