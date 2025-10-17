@@ -21,7 +21,7 @@
 			class="rounded-full shadow-md shadow-main-700/25"
 		/>
 		<div class="flex flex-col gap-2">
-			<h1 class="text-2xl font-semibold text-accent-700">Andri Soone</h1>
+			<h1 class="text-3xl font-semibold text-accent-700">Andri Soone</h1>
 			<p class="text-base text-main-600">Full snack developer</p>
 		</div>
 		<nav class="flex w-full flex-wrap justify-between gap-2">
@@ -39,7 +39,10 @@
 		</nav>
 	</header>
 	<main
-		class="prose w-full max-w-2xl rounded-xl border border-main-200 bg-white p-8 text-main-700 prose-theme"
+		class={[
+			'w-full max-w-2xl rounded-xl border border-main-200 bg-white p-8 text-main-700',
+			'prose prose-theme prose-headings:font-medium'
+		]}
 	>
 		{@render children?.()}
 	</main>
