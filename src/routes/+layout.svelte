@@ -11,7 +11,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="flex h-full flex-col items-center gap-2 bg-main-50 bg-pattern p-8">
+<div class="flex h-full flex-col items-center gap-2 bg-main-50 bg-pattern p-4 sm:p-8">
 	<header class="flex w-full max-w-2xl flex-col items-center gap-6 text-center">
 		<img
 			src="/andri.jpg"
@@ -24,14 +24,14 @@
 			<h1 class="text-2xl font-semibold text-accent-700">Andri Soone</h1>
 			<p class="text-base text-main-600">Full snack developer</p>
 		</div>
-		<nav class="flex w-full justify-between gap-2">
+		<nav class="flex w-full flex-wrap justify-between gap-2">
 			<div class="flex gap-2">
 				<NavLink href="/" label="/" />
 				<NavLink href="/projects" label="/projects" />
 				<NavLink href="/now" label="/now" />
 				<NavLink href="/uses" label="/uses" />
 			</div>
-			<div class="flex gap-3">
+			<div class="flex gap-3 self-end">
 				<SocialLink href="https://github.com/ndri" />
 				<SocialLink href="https://www.linkedin.com/in/andrisoone/" />
 				<SocialLink href="https://bsky.app/profile/andri.io" />
@@ -39,7 +39,7 @@
 		</nav>
 	</header>
 	<main
-		class="prose w-full max-w-2xl rounded-xl border-2 border-main-200 bg-white p-8 text-main-700 prose-theme"
+		class="prose w-full max-w-2xl rounded-xl border border-main-200 bg-white p-8 text-main-700 prose-theme"
 	>
 		{@render children?.()}
 	</main>
