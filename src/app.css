@@ -33,8 +33,12 @@
 	--color-accent-950: var(--color-emerald-950);
 }
 
-@utility bg-pattern {
+@utility bg-pattern-light {
 	background-image: url('/pattern.svg');
+}
+
+@utility bg-pattern-dark {
+	background-image: url('/pattern-dark.svg');
 }
 
 @utility prose-theme {
@@ -55,9 +59,9 @@
 	--tw-prose-th-borders: var(--color-main-300);
 	--tw-prose-td-borders: var(--color-main-200);
 	--tw-prose-invert-body: var(--color-main-200);
-	--tw-prose-invert-headings: var(--color-white);
+	--tw-prose-invert-headings: var(--color-accent-500);
 	--tw-prose-invert-lead: var(--color-main-300);
-	--tw-prose-invert-links: var(--color-white);
+	--tw-prose-invert-links: var(--color-accent-500);
 	--tw-prose-invert-bold: var(--color-white);
 	--tw-prose-invert-counters: var(--color-main-400);
 	--tw-prose-invert-bullets: var(--color-main-600);
