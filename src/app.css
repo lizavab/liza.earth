@@ -20,17 +20,17 @@
 	--color-main-900: var(--color-slate-900);
 	--color-main-950: var(--color-slate-950);
 
-	--color-accent-50: var(--color-emerald-50);
-	--color-accent-100: var(--color-emerald-100);
-	--color-accent-200: var(--color-emerald-200);
-	--color-accent-300: var(--color-emerald-300);
-	--color-accent-400: var(--color-emerald-400);
-	--color-accent-500: var(--color-emerald-500);
-	--color-accent-600: var(--color-emerald-600);
-	--color-accent-700: var(--color-emerald-700);
-	--color-accent-800: var(--color-emerald-800);
-	--color-accent-900: var(--color-emerald-900);
-	--color-accent-950: var(--color-emerald-950);
+	--color-accent-50: oklch(0.954 0.031 137.76);
+	--color-accent-100: oklch(0.906 0.072 137.06);
+	--color-accent-200: oklch(0.813 0.064 136.55);
+	--color-accent-300: oklch(0.728 0.058 137.03);
+	--color-accent-400: oklch(0.641 0.05 137.37);
+	--color-accent-500: oklch(0.551 0.043 136.95);
+	--color-accent-600: oklch(0.47 0.037 137.89);
+	--color-accent-700: oklch(0.386 0.031 137.89);
+	--color-accent-800: oklch(0.301 0.025 137.9);
+	--color-accent-900: oklch(0.222 0.018 137.89);
+	--color-accent-950: oklch(0.175 0.014 135.22);
 }
 
 @utility bg-pattern-light {
