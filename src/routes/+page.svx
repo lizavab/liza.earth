@@ -6,4 +6,4 @@ I try to do good well.
 
 On this site you can find out which [projects](/projects) I've worked on, [what I'm up to](/now) right now and what [tech I use](/uses).
 
-Contact me at hello <at> andri.io
+Contact me at hello &lt;at&gt; andri.io
