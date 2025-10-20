@@ -1,7 +1,3 @@
-<svelte:head>
-	<title>/projects • Andri Soone</title>
-</svelte:head>
-
 ## Projects
 
 I've worked on some neat projects throughout the years and these are some of my favourites:

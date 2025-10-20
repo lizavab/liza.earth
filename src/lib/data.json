@@ -1,0 +1,29 @@
+{
+	"name": "Andri Soone",
+	"title": "Andri Soone",
+	"role": "Full Snack Developer",
+	"image": "/andri.jpg",
+	"nav": [
+		{
+			"label": "/",
+			"href": "/"
+		},
+		{
+			"label": "/projects",
+			"href": "/projects"
+		},
+		{
+			"label": "/now",
+			"href": "/now"
+		},
+		{
+			"label": "/uses",
+			"href": "/uses"
+		}
+	],
+	"socials": [
+		"https://github.com/ndri",
+		"https://www.linkedin.com/in/andrisoone/",
+		"https://bsky.app/profile/andri.io"
+	]
+}

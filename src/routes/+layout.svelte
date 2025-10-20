@@ -3,12 +3,18 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import NavLink from '$lib/components/NavLink.svelte';
 	import SocialLink from '$lib/components/SocialLink.svelte';
+	import data from '$lib/data.json';
+	import { page } from '$app/state';
 
 	let { children } = $props();
+
+	const currentPath = $derived(page.url.pathname);
+	const pageTitle = $derived(data.nav.find((item) => item.href === currentPath)?.label);
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>{pageTitle ? `${pageTitle} • ` : ''}{data.name}</title>
 </svelte:head>
 
 <div
@@ -20,27 +26,26 @@
 >
 	<header class="flex w-full max-w-2xl flex-col items-center gap-6 text-center">
 		<img
-			src="/andri.jpg"
-			alt="Andri Soone"
+			src={data.image}
+			alt={data.name}
 			width="160"
 			height="160"
 			class="rounded-full shadow-md shadow-main-700/25"
 		/>
 		<div class="flex flex-col gap-2">
-			<h1 class="text-3xl font-semibold text-accent-700 dark:text-accent-500">Andri Soone</h1>
-			<p class="text-base text-main-600 dark:text-main-300">Full snack developer</p>
+			<h1 class="text-3xl font-semibold text-accent-700 dark:text-accent-500">{data.name}</h1>
+			<p class="text-base text-main-600 dark:text-main-300">{data.role}</p>
 		</div>
 		<nav class="flex w-full flex-wrap justify-between gap-2 px-4 sm:px-0">
 			<div class="flex gap-2">
-				<NavLink href="/" label="/" />
-				<NavLink href="/projects" label="/projects" />
-				<NavLink href="/now" label="/now" />
-				<NavLink href="/uses" label="/uses" />
+				{#each data.nav as { href, label } (href)}
+					<NavLink {href} {label} />
+				{/each}
 			</div>
 			<div class="flex gap-3 self-end">
-				<SocialLink href="https://github.com/ndri" />
-				<SocialLink href="https://www.linkedin.com/in/andrisoone/" />
-				<SocialLink href="https://bsky.app/profile/andri.io" />
+				{#each data.socials as href}
+					<SocialLink {href} />
+				{/each}
 			</div>
 		</nav>
 	</header>
