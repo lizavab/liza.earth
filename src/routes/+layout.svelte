@@ -19,7 +19,7 @@
 
 <div
 	class={[
-		'bg-pattern flex h-full flex-col items-center gap-4 bg-main-50 bg-center px-0 pt-8',
+		'flex h-full flex-col items-center gap-4 bg-main-50 bg-pattern bg-center px-0 pt-8',
 		'sm:gap-2 sm:px-8',
 		'dark:bg-main-900'
 	]}
@@ -40,13 +40,13 @@
 				<p class="text-base text-main-600 dark:text-main-300">{data.role}</p>
 			{/if}
 		</div>
-		<nav class="flex w-full flex-wrap justify-between gap-2 px-4 sm:px-0">
-			<div class="flex gap-2">
+		<nav class="flex w-full justify-between gap-2 px-4 sm:px-0">
+			<div class="flex flex-wrap gap-2">
 				{#each data.nav as { href, label } (href)}
 					<NavLink {href} {label} />
 				{/each}
 			</div>
-			<div class="flex gap-3 self-end">
+			<div class="flex flex-wrap justify-end gap-3">
 				{#each data.socials as href}
 					<SocialLink {href} />
 				{/each}
