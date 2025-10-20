@@ -20,18 +20,17 @@
 	--color-main-900: var(--color-slate-900);
 	--color-main-950: var(--color-slate-950);
 
-	/* https://www.tints.dev/palette/v1:YWNjZW50fDY2Nzg1Rnw3MDB8cHwwfDB8MjB8OTh8bQ */
-	--color-accent-50: oklch(0.944 0.038 136.8);
-	--color-accent-100: oklch(0.916 0.064 136.73);
-	--color-accent-200: oklch(0.854 0.067 136.98);
-	--color-accent-300: oklch(0.795 0.062 136.88);
-	--color-accent-400: oklch(0.737 0.058 137.02);
-	--color-accent-500: oklch(0.676 0.053 136.91);
-	--color-accent-600: oklch(0.606 0.047 136.77);
-	--color-accent-700: oklch(0.551 0.043 136.95);
-	--color-accent-800: oklch(0.47 0.037 137.89);
-	--color-accent-900: oklch(0.386 0.031 137.89);
-	--color-accent-950: oklch(0.35 0.027 136.76);
+	--color-accent-50: var(--color-sky-50);
+	--color-accent-100: var(--color-sky-100);
+	--color-accent-200: var(--color-sky-200);
+	--color-accent-300: var(--color-sky-300);
+	--color-accent-400: var(--color-sky-400);
+	--color-accent-500: var(--color-sky-500);
+	--color-accent-600: var(--color-sky-600);
+	--color-accent-700: var(--color-sky-700);
+	--color-accent-800: var(--color-sky-800);
+	--color-accent-900: var(--color-sky-900);
+	--color-accent-950: var(--color-sky-950);
 }
 
 @utility bg-pattern-light {
