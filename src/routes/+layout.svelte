@@ -25,16 +25,20 @@
 	]}
 >
 	<header class="flex w-full max-w-2xl flex-col items-center gap-6 text-center">
-		<img
-			src={data.image}
-			alt={data.name}
-			width="160"
-			height="160"
-			class="rounded-full shadow-md shadow-main-700/25"
-		/>
+		{#if data.image}
+			<img
+				src={data.image}
+				alt={data.name}
+				width="160"
+				height="160"
+				class="rounded-full shadow-md shadow-main-700/25"
+			/>
+		{/if}
 		<div class="flex flex-col gap-2">
 			<h1 class="text-3xl font-semibold text-accent-700 dark:text-accent-500">{data.name}</h1>
-			<p class="text-base text-main-600 dark:text-main-300">{data.role}</p>
+			{#if data.role}
+				<p class="text-base text-main-600 dark:text-main-300">{data.role}</p>
+			{/if}
 		</div>
 		<nav class="flex w-full flex-wrap justify-between gap-2 px-4 sm:px-0">
 			<div class="flex gap-2">
