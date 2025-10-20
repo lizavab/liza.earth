@@ -49,7 +49,7 @@
 			'h-full w-full max-w-2xl border border-main-200 bg-white px-6 py-8 text-main-700',
 			'sm:h-auto sm:rounded-xl sm:px-8',
 			'prose prose-sm prose-theme dark:prose-invert prose-headings:font-medium',
-			'dark:border-main-700 dark:bg-main-950 dark:text-main-200'
+			'dark:border-main-800 dark:bg-main-950 dark:text-main-200'
 		]}
 	>
 		{@render children?.()}
