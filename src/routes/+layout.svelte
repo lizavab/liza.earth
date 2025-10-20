@@ -19,9 +19,9 @@
 
 <div
 	class={[
-		'flex h-full flex-col items-center gap-4 bg-main-50 bg-pattern-light bg-center px-0 pt-8',
+		'bg-pattern flex h-full flex-col items-center gap-4 bg-main-50 bg-center px-0 pt-8',
 		'sm:gap-2 sm:px-8',
-		'dark:bg-main-900 dark:bg-pattern-dark'
+		'dark:bg-main-900'
 	]}
 >
 	<header class="flex w-full max-w-2xl flex-col items-center gap-6 text-center">

@@ -33,12 +33,11 @@
 	--color-accent-950: var(--color-sky-950);
 }
 
-@utility bg-pattern-light {
-	background-image: url('/pattern.svg');
-}
-
-@utility bg-pattern-dark {
-	background-image: url('/pattern-dark.svg');
+@utility bg-pattern {
+	background-image: url('/waves.svg');
+	@media (prefers-color-scheme: dark) {
+		background-image: url('/waves-dark.svg');
+	}
 }
 
 @utility prose-theme {
