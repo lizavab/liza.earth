@@ -60,11 +60,11 @@
 	--tw-prose-th-borders: var(--color-main-300);
 	--tw-prose-td-borders: var(--color-main-200);
 	--tw-prose-invert-body: var(--color-main-200);
-	--tw-prose-invert-headings: var(--color-accent-500);
+	--tw-prose-invert-headings: var(--color-accent-400);
 	--tw-prose-invert-lead: var(--color-main-300);
-	--tw-prose-invert-links: var(--color-accent-500);
-	--tw-prose-invert-links-hover: var(--color-accent-600);
-	--tw-prose-invert-links-active: var(--color-accent-700);
+	--tw-prose-invert-links: var(--color-accent-400);
+	--tw-prose-invert-links-hover: var(--color-accent-500);
+	--tw-prose-invert-links-active: var(--color-accent-600);
 	--tw-prose-invert-bold: var(--color-white);
 	--tw-prose-invert-counters: var(--color-main-400);
 	--tw-prose-invert-bullets: var(--color-main-600);
