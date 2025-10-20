@@ -26,13 +26,7 @@
 >
 	<header class="flex w-full max-w-2xl flex-col items-center gap-6 text-center">
 		{#if data.image}
-			<img
-				src={data.image}
-				alt={data.name}
-				width="160"
-				height="160"
-				class="rounded-full shadow-md shadow-main-700/25"
-			/>
+			<img src={data.image} alt={data.name} width="160" height="160" class="squircle" />
 		{/if}
 		<div class="flex flex-col gap-2">
 			<h1 class="text-3xl font-semibold text-accent-700 dark:text-accent-500">{data.name}</h1>
@@ -64,3 +58,17 @@
 		{@render children?.()}
 	</main>
 </div>
+
+<svg class="sr-only" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<clipPath id="squircle" clipPathUnits="objectBoundingBox">
+			<path
+				d="M 0,0.5
+                C 0,0.115  0.115,0  0.5,0
+                  0.885,0  1,0.115  1,0.5
+                  1,0.885  0.885,1  0.5,1
+                  0.115,1  0,0.885  0,0.5"
+			></path>
+		</clipPath>
+	</defs>
+</svg>
