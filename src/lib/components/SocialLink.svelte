@@ -35,7 +35,10 @@
 <a
 	{href}
 	target="_blank"
-	class={['text-main-500 hover:text-main-400', 'dark:text-main-200 dark:hover:text-main-300']}
+	class={[
+		'text-main-500 hover:text-main-400 active:text-main-300',
+		'dark:text-main-200 dark:hover:text-main-300 dark:active:text-main-400'
+	]}
 >
 	{#if Icon}
 		<Icon class="size-6" />
