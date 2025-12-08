@@ -1,0 +1,13 @@
+## Exploratory analysis of dengue outbreaks in Taiwan
+
+The project explores the spatial and temporal patterns of dengue incidence in Taiwan during 2012–2024. The daily dengue statistics are 
+publicly available from the Taiwan Centers for Disease Control [open data platform](https://data.cdc.gov.tw/).
+This project was a part of my Master's thesis titled "A spatio-temporal study of climatic effects on dengue outbreaks in Taiwan". 
+The code is available on my [GitHub](https://github.com/lizavab/taiwan-dengue-analysis).
+
+### Dengue case count vs dengue incidence (per 100,000 people)
+![Dengue temporal](/projects/tw-cases.png)
+
+### Local indicators of spatial association
+![LISA maps](/projects/lisa_maps.png)
+

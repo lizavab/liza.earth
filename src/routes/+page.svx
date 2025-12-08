@@ -1,9 +1,11 @@
-## Hey! I'm Andri Soone.
+## Hey!
 
-I'm a 28-year-old web dev from Estonia.
+I'm a geospatial data scientist in Copenhagen, Denmark.
 
-I try to do good well.
+I recently graduated from MSc in Geography & Geoinformatics at the University of Copenhagen.
 
-On this site you can find out which [projects](/projects) I've worked on, [what I'm up to](/now) right now and what [tech I use](/uses).
+I have experience in programming, database management, modelling and a passion for data visualisation and clear communication.
 
-Contact me at hello &lt;at&gt; andri.io
+Check out some of my [projects](/projects)!
+
+**I'm currently looking for work!** Contact me at jvabistsevits [at] gmail [dot] com

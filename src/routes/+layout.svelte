@@ -24,14 +24,14 @@
 
 <div
 	class={[
-		'flex h-full flex-col items-center gap-4 bg-main-50 bg-pattern bg-center px-0 pt-8',
+		'flex min-h-full w-full flex-col items-center gap-4 bg-main-50 bg-pattern bg-center px-0 py-8',
 		'sm:gap-2 sm:px-8',
 		'dark:bg-main-900'
 	]}
 >
 	<header class="flex w-full max-w-2xl flex-col items-center gap-6 text-center">
 		{#if data.image}
-			<img src={data.image} alt={data.name} width="160" height="160" class="squircle" />
+			<img src={data.image} alt={data.name} width="160" height="160" class="rounded-full" />
 		{/if}
 		<div class="flex flex-col gap-2">
 			<h1 class="text-3xl font-semibold text-accent-700 dark:text-accent-500">{data.name}</h1>

@@ -1,0 +1,10 @@
+## Water quality based on nutrient concentrations in small lakes in Estonia
+
+### Map of ecological status
+![WQ map](/projects/seisundid.png)
+
+### Total nitrogen (TN) concentration
+![TN](/projects/TN_boxplot.png)
+
+### Total phosphorus (TP) concentration
+![TP](/projects/TP_boxplot.png)

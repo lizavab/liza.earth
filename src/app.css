@@ -20,23 +20,23 @@
 	--color-main-900: var(--color-slate-900);
 	--color-main-950: var(--color-slate-950);
 
-	--color-accent-50: var(--color-lime-50);
-	--color-accent-100: var(--color-lime-100);
-	--color-accent-200: var(--color-lime-200);
-	--color-accent-300: var(--color-lime-300);
-	--color-accent-400: var(--color-lime-400);
-	--color-accent-500: var(--color-lime-500);
-	--color-accent-600: var(--color-lime-600);
-	--color-accent-700: var(--color-lime-700);
-	--color-accent-800: var(--color-lime-800);
-	--color-accent-900: var(--color-lime-900);
-	--color-accent-950: var(--color-lime-950);
+	--color-accent-50: var(--color-emerald-50);
+	--color-accent-100: var(--color-emerald-100);
+	--color-accent-200: var(--color-emerald-200);
+	--color-accent-300: var(--color-emerald-300);
+	--color-accent-400: var(--color-emerald-400);
+	--color-accent-500: var(--color-emerald-500);
+	--color-accent-600: var(--color-emerald-600);
+	--color-accent-700: var(--color-emerald-700);
+	--color-accent-800: var(--color-emerald-800);
+	--color-accent-900: var(--color-emerald-900);
+	--color-accent-950: var(--color-emerald-950);
 }
 
 @utility bg-pattern {
-	background-image: url('/waves.svg');
+	background-image: url('/topography.svg');
 	@media (prefers-color-scheme: dark) {
-		background-image: url('/waves-dark.svg');
+		background-image: url('/topography-dark.svg');
 	}
 }
 

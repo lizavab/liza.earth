@@ -1,31 +1,21 @@
 {
-	"name": "Andri Soone",
-	"title": "Andri Soone",
-	"role": "Full Snack Developer",
-	"image": "/andri.jpg",
+	"name": "Liza Vabistsevits",
+	"title": "Liza Vabistsevits",
+	"role": "",
+	"image": "/liza.JPG",
 	"nav": [
 		{
-			"label": "/",
+			"label": "Home",
 			"href": "/"
 		},
 		{
-			"label": "/projects",
+			"label": "Projects",
 			"href": "/projects"
-		},
-		{
-			"label": "/now",
-			"href": "/now"
-		},
-		{
-			"label": "/uses",
-			"href": "/uses"
 		}
+
 	],
 	"socials": [
-		"https://github.com/ndri",
-		"https://gitlab.com/undree",
-		"https://bsky.app/profile/andri.io",
-		"https://www.linkedin.com/in/andrisoone/",
-		"https://manifold.markets/andri"
+		"https://github.com/lizavab",
+		"https://www.linkedin.com/in/liza-vabistsevits/"
 	]
 }

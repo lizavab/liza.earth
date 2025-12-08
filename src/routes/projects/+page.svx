@@ -2,14 +2,7 @@
 
 I've worked on some neat projects throughout the years and these are some of my favourites:
 
-- [Slackelo](https://github.com/ndri/slackelo) - March 2025
-- [Sidekickicons](https://sidekickicons.com/) - October 2024
-- [Anneta Targalt](https://annetatargalt.ee/) - October 2023
-- [Quicksplain](https://quicksplain.com/) - July 2021
-- [3D-Tic-Tac-Toe](https://andri.io/3dttt) - May 2021
-- [Wheel of Existential Risk](https://andri.io/woer) - May 2021
-- [QuickDrawBattle](https://andri.io/quickdrawbattle) - March 2021
-- [Plane and Simple](https://andri.io/plane-and-simple) - January 2019
-- [Emoji Cipher](https://andri.io/emojicipher) - November 2016
-
-You might find more on my [GitLab](https://gitlab.com/hookey) and [GitHub](https://github.com/ndri).
+- [Exploratory analysis of dengue outbreaks in Taiwan](/projects/dengue-taiwan) *(June 2025)*
+- [Classification of urban green spaces with Random Forest](/projects/ugs-classification) *(March 2024)*
+- [N and P concentrations in small lakes in Estonia](/projects/water-quality) *(June 2021)*
+- [Transit-oriented development: Ørestad case](/projects/unimelb-tod-poster.pdf) *(May 2020)*
