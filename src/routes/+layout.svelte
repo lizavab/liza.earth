@@ -30,9 +30,7 @@
 	]}
 >
 	<header class="flex w-full max-w-2xl flex-col items-center gap-6 text-center">
-		{#if data.image}
-			<img src={data.image} alt={data.name} width="160" height="160" class="rounded-full" />
-		{/if}
+		<img src="/liza-160.webp" srcset="/liza-160.webp 1x, /liza-320.webp 2x, /liza-640.webp 3x" alt={data.name} width="160" height="160" class="rounded-full" />
 		<div class="flex flex-col gap-2">
 			<h1 class="text-3xl font-semibold text-accent-700 dark:text-accent-500">{data.name}</h1>
 			{#if data.role}
