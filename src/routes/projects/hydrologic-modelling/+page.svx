@@ -34,8 +34,25 @@ The locations within the catchment are shown in Figure 1 (blue points) and the c
 **c.** Tune (Mimosevej), bluespot spill is 8662,97 m<sup>3</sup>.
 
 ![flooded buildings](/projects/flooded-buildings.png)
-*Figure 2. Vulnerable neighborhoods of Greve municipality in case of the 30 mm stormwater event. Background: orthophoto from summer 2022.*
+*Figure 2. Vulnerable neighborhoods of Greve municipality in case of a 30 mm stormwater event. Background: orthophoto from summer 2022.*
 
+### Suggestions for new retention basins
 
+We suggest to build retention basins in three vulnerable locations as shown in Figure 3.
+The locations **A** (near Greve Landsby) and **B** (in Kildebrønde) were selected based on their proximity to the significant streams and 
+placement upstream of critical bluespots, expecting to store rain water before flowing into the residential areas. 
+These streams would carry a high volume in case of a 60 mm rainfall event, 
+hence these neighborhoods are at high risk of severe damage by heavy or intermediate scale floods. 
+
+For the location **C**, in a neighborhood north of Godsparken, it is contrarily suggested to locate the retention basin downstream, 
+as it is difficult to identify the significant stream in the built-up area. 
+The basin is expected to store rain water leveraging the mechanism that water flows from higher point to the lower point 
+by constructing additional water flow redirection.
+At a 60 mm rainfall event, the streams would have comparatively low volume. 
+However, this neighborhood has higher population density than the other two, so even a smaller scale flood can cause significant damage. 
+
+![retention basins](/projects/suggested-basins.png)
+*Figure 3. Three suggestions for the new retention basins based on the locations of streams and bluespots in case of a 60 mm rainfall event. 
+Background: orthophoto from summer 2022.*
 
 
