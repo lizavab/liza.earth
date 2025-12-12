@@ -8,3 +8,5 @@
 
 ### Total phosphorus (TP) concentration
 ![TP](/projects/TP_boxplot.png)
+
+- [N and P concentrations in small lakes in Estonia](/projects/water-quality) *(June 2022)*

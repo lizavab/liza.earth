@@ -8,6 +8,3 @@ The code is available on my [GitHub](https://github.com/lizavab/taiwan-dengue-an
 ### Dengue case count vs dengue incidence (per 100,000 people)
 ![Dengue temporal](/projects/tw-cases.png)
 
-### Local indicators of spatial association
-![LISA maps](/projects/lisa_maps.png)
-

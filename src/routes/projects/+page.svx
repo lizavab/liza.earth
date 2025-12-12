@@ -3,6 +3,6 @@
 I've worked on some neat projects throughout the years and these are some of my favourites:
 
 - [Exploratory analysis of dengue outbreaks in Taiwan](/projects/dengue-taiwan) *(June 2025)*
-- [Classification of urban green spaces with Random Forest](/projects/ugs-classification) *(March 2024)*
-- [N and P concentrations in small lakes in Estonia](/projects/water-quality) *(June 2021)*
+- [Random Forest classification of urban green spaces](/projects/ugs-classification) *(March 2024)*
+- [Hydrologic modelling of the Olsbækkens catchment](/projects/hydrologic-modelling) *(January 2024)*
 - [Transit-oriented development: Ørestad case](/projects/unimelb-tod-poster.pdf) *(May 2020)*

@@ -3,9 +3,6 @@ This project used high-resolution satellite imagery from PlanetScope and Danish 
 The project was completed together with Louise Rye Svendsen as a part of MSc course in March 2024. 
 The code is available on my [GitHub](https://github.com/lizavab/ugs-classification).
 
-### Final classification
-![final classification](/projects/final_classification.png)
-
 ### Overview of the methodology
 ![flowchart](/projects/methods_flowchart.png)
 
@@ -19,3 +16,5 @@ The training data was labelled by the authors with four classes to represent urb
 
 The test data was generated independently using a random sampling tool in QGIS 3.36.
 
+### Final classification
+![final classification](/projects/final_classification.png)

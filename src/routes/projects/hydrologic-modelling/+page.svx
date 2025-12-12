@@ -1,0 +1,41 @@
+## Hydrologic modelling of the Olsbækkens catchment
+
+The catchment is located in the Greve municipality, southwest of Copenhagen. 
+Streams Hederenden and Olsbæk carry water from east to west towards the Køge Bay. 
+Godsparken is a neighborhood in a lower area of the catchment, where water tends to accumulate after heavy rain.
+
+![catchment](/projects/catchment.png)
+*Figure 1. The overview of Olsbækkens catchment.*
+
+The project utilised the [Malstroem model](https://github.com/Septima/malstroem) and ArcGIS Pro ModelBuilder. It was completed together with Miki Yamamoto as a part of MSc course in January 2024. 
+
+### Flooded buildings
+
+We identified buildings vulnerable to various magnitude of stormwater events based on the different spatial relationships between buildings and bluespots. 
+
+*Table 1. The number of buildings affected by the filled bluespots after a certain rain event (mm).*
+
+|| 30&nbsp;mm | 40&nbsp;mm | 50&nbsp;mm | 60&nbsp;mm | 70&nbsp;mm | 80&nbsp;mm | 90&nbsp;mm | 100&nbsp;mm |
+|---|---|---|---|---|---|---|---|---|
+| completely within | 192 | 329 | 433 | 444 | 596 | 599 | 601 | 704 |
+| intersect | 2525 | 2847 | 3040 | 3080 | 3360 | 3375 | 3392 | 3606 |
+
+
+We created a model to locate the buildings within the catchment that can potentially get flooded during various stormwater events. 
+First, it selects the bluespots, which get filled during a certain rain event (30-100 mm). 
+Then, it finds all the buildings that are located either completely within or intersect with the certain bluespots. 
+Lastly, the selected features are copied and displayed.
+
+In addition to Godsparken, we identified three neighborhoods, which get flooded during a frequent stormwater event (30 mm). 
+The locations within the catchment are shown in Figure 1 (blue points) and the close-ups to the neighborhoods are in Figure 2:
+
+**a.** Greve Landsby, bluespot spill is 40 760,16 m<sup>3</sup>;  
+**b.** Kildebrønde, bluespot spill is 24 196,58 m<sup>3</sup>;  
+**c.** Tune (Mimosevej), bluespot spill is 8662,97 m<sup>3</sup>.
+
+![flooded buildings](/projects/flooded-buildings.png)
+*Figure 2. Vulnerable neighborhoods of Greve municipality in case of the 30 mm stormwater event. Background: orthophoto from summer 2022.*
+
+
+
+

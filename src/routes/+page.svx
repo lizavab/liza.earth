@@ -1,10 +1,10 @@
 ## Hey!
 
-I'm a geospatial data scientist in Copenhagen, Denmark.
+I'm an aspiring geospatial data scientist in Copenhagen, Denmark.
 
 I recently graduated from MSc in Geography & Geoinformatics at the University of Copenhagen.
 
-I have experience in programming, database management, modelling and a passion for data visualisation and clear communication.
+I have experience in Python & R programming, database management, machine learning and a passion for data visualisation and clear communication.
 
 Check out some of my [projects](/projects)!
 
