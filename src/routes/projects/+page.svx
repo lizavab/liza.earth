@@ -1,8 +1,50 @@
+<script>
+	import ProjectCard from '$lib/components/ProjectCard.svelte';
+</script>
+
 ## Projects
 
 I've worked on some neat projects throughout the years and these are some of my favourites:
 
-- [Exploratory analysis of dengue outbreaks in Taiwan](/projects/dengue-taiwan) *(June 2025)*
-- [Random Forest classification of urban green spaces](/projects/ugs-classification) *(March 2024)*
-- [Hydrologic modelling of the Olsbækkens catchment](/projects/hydrologic-modelling) *(January 2024)*
-- [Transit-oriented development: Ørestad case](/projects/unimelb-tod-poster.pdf) *(May 2020)*
+<div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-6 my-8">
+	<ProjectCard
+		href="/projects/dengue-taiwan"
+		title="Exploratory analysis of dengue outbreaks in Taiwan"
+		date="June 2025"
+		image="/projects/dengue_taiwan.webp"
+		tags={['R', 'epidemiology']}
+	/>
+
+	<ProjectCard
+		href="/projects/ugs-classification"
+		title="Random Forest classification of urban green spaces"
+		date="March 2024"
+		image="/projects/ugs_classification.webp"
+		tags={['R', 'machine learning', 'satellite imagery']}
+	/>
+
+	<ProjectCard
+		href="/projects/hydrologic-modelling"
+		title="Hydrologic modelling of the Olsbækkens catchment"
+		date="January 2024"
+		image="/projects/hydrologic_modelling.webp"
+		tags={['hydrology', 'ArcGIS']}
+	/>
+
+	<ProjectCard
+		href="/projects/water-quality"
+		title="Map of the ecological status of small lakes in Estonia"
+		date="June 2022"
+		image="/projects/water_quality.webp"
+		tags={['water quality', 'QGIS']}
+	/>
+
+	<ProjectCard
+		href="/projects/unimelb-tod-poster.pdf"
+		title="Transit-oriented development: Ørestad case"
+		date="May 2020"
+		image="/projects/unimelb-tod-poster.webp"
+		tags={['urban planning', 'QGIS']}
+		target="_blank"
+	/>
+</div>

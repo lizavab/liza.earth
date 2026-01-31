@@ -1,6 +1,6 @@
 ## Classifying Urban Greenery: A Random Forest Approach with PlanetScope Imagery
 This project used high-resolution satellite imagery from PlanetScope and Danish Digital Surface Model (DSM) to create a detailed and up-to-date urban land cover classification for Copenhagen, Denmark. 
-The project was completed together with Louise Rye Svendsen as a part of MSc course in March 2024. 
+The project was completed together with Louise Rye Svendsen in March 2024. 
 The code is available on my [GitHub](https://github.com/lizavab/ugs-classification).
 
 ### Overview of the methodology
