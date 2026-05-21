@@ -12,7 +12,7 @@ I've worked on some neat projects throughout the years and these are some of my 
 		title="Interactive web map of partner organisations"
 		date="April 2026"
 		image="/projects/at_map.webp"
-		tags={['React Simple Maps', 'topojson']}
+		tags={['React Simple Maps', 'TopoJSON']}
 	/>
 
 	<ProjectCard
@@ -28,7 +28,7 @@ I've worked on some neat projects throughout the years and these are some of my 
 		title="Random Forest classification of urban green spaces"
 		date="March 2024"
 		image="/projects/ugs_classification.webp"
-		tags={['R', 'machine learning', 'satellite imagery']}
+		tags={['R', 'QGIS', 'machine learning', 'satellite imagery']}
 	/>
 
 	<ProjectCard
@@ -45,6 +45,15 @@ I've worked on some neat projects throughout the years and these are some of my 
 		date="June 2022"
 		image="/projects/water_quality.webp"
 		tags={['water quality', 'QGIS']}
+	/>
+
+	<ProjectCard
+		href="/projects/hexagons"
+		title="Hexagonal hearts of the cities in Estonia"
+		date="November 2021"
+		image="/projects/hexagons.webp"
+		tags={['#30DayMapChallenge', 'QGIS']}
+		target="_blank"
 	/>
 
 	<ProjectCard

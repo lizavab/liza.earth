@@ -1,0 +1,6 @@
+## Hexagonal hearts of the cities in Estonia
+
+I created this map using only QGIS for the #30DayMapChallenge hexagons day in 2021. It shows the inner city density and network of the largest cities in Estonia. 
+The data source for the road network and buildings is the Estonian Land Board. The map was originally posted on [Twitter](https://x.com/taavipae/status/1456180554479644673).
+
+![Hexagonal hearts of the cities in Estonia](/projects/hexagons.png)
