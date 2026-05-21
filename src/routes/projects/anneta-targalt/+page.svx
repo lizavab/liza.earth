@@ -1,0 +1,12 @@
+## Interactive web map of partner organisations for Anneta Targalt
+
+Anneta Targalt is donation platform based in Estonia, which promotes effective giving principles and has fundraised over 300,000 euros to effective charities. 
+It is a part of an international network and has partners all around Europe.
+
+The idea for the map was very simple: visualise in which countries Anneta Targalt has partner organisations instead of having a bullet list of country and organsation names. 
+Anneta Targalt project is built in React. So naturally I used the [Simple Maps](https://www.react-simple-maps.io/) component library for creating SVG-based maps. 
+The map uses 50m World Atlas TopoJSON and EPSG:3035. The code is available on [GitHub](https://github.com/eaeesti/annetatargalt/blob/main/frontend/src/components/elements/Map.tsx).
+
+Check out the map at [annetatargalt.ee](https://annetatargalt.ee/meist).
+
+![Anneta Targalt partner organisation map](/projects/at_map.gif)

@@ -8,6 +8,14 @@ I've worked on some neat projects throughout the years and these are some of my 
 
 <div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-6 my-8">
 	<ProjectCard
+		href="/projects/anneta-targalt"
+		title="Interactive web map of partner organisations"
+		date="April 2026"
+		image="/projects/at_map.webp"
+		tags={['React Simple Maps', 'topojson']}
+	/>
+
+	<ProjectCard
 		href="/projects/dengue-taiwan"
 		title="Exploratory analysis of dengue outbreaks in Taiwan"
 		date="June 2025"
